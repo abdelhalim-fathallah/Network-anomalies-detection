@@ -27,7 +27,7 @@ Our system uses **machine learning and statistical analysis** to monitor network
 ---
 
 ## 📁 Project Structure
-'''
+```
 network-anomaly-detection/
 │
 ├── data/
@@ -53,7 +53,7 @@ network-anomaly-detection/
 ├── requirements.txt ← Project dependencies
 ├── README.md ← Project description
 └── config.yaml ← Network and paths configuration
-'''
+```
 
 ---
 
