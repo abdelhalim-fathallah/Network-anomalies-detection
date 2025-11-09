@@ -1,0 +1,34 @@
+# Core dependencies
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Network analysis
+pyshark
+tshark
+scapy
+
+# Dashboard and alerting
+elasticsearch
+kibana
+logstash
+requests
+flask
+
+# Utilities
+pyyaml
+tqdm
+jupyter
+notebook
+joblib
+
+# Optional (for experiments)
+ipykernel
+plotly
