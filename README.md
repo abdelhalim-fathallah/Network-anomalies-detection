@@ -1,20 +1,20 @@
 # Network Anomalies Detection for Insider Attacks
 
-## 📝 Overview
+## Overview
 This is a **graduation project** by our team at **HIMIT**. The project focuses on detecting **network anomalies caused by insider attacks**. Insider attacks are malicious actions performed by users within an organization and are often difficult to detect using traditional security methods.
 
 Our system uses **machine learning and statistical analysis** to monitor network traffic, extract key features, detect suspicious patterns, and alert administrators about potential insider threats.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Detect anomalies in network traffic indicative of insider threats.  
 - Provide a **scalable and automated solution** for organizational network monitoring.  
 - Generate real-time alerts for suspicious activities to prevent potential data breaches.  
 
 ---
 
-## ⚙️ Features
+## Features
 - Collect network traffic using Wireshark/Tcpdump.  
 - Extract network features from PCAP files.  
 - Train AI models for anomaly detection:  
@@ -58,34 +58,37 @@ network-anomaly-detection/
 ---
 
 ## 🚀 How to Run
+
 1. Clone the repository:
-
+   ```
    git clone https://github.com/your-repo/network-anomaly-detection.git
-
+   ```
 Install dependencies:
+```
 pip install -r requirements.txt
-
+```
 Preprocess the PCAP data:
+```
 python src/preprocess.py --input data/raw --output data/processed
-
-
+```
 Train the models:
+```
 python src/train_model.py
-
-
+```
 Detect anomalies:
+```
 python src/detect_anomalies.py --input data/processed
-
-
+```
 Send alerts (optional):
+```
 python src/alert_system.py
-
-
+```
 Connect to dashboard (optional):
+```
 python src/dashboard_connector.py
+```
 
-
-🛠️ Technologies Used
+###Technologies Used
 Python 3.10+
 PyShark (PCAP analysis)
 Pandas & NumPy (data processing)
@@ -95,21 +98,19 @@ Matplotlib & Seaborn (visualization)
 ELK Stack / Kibana (optional dashboard visualization)
 
 
-👨‍💻 Team Members
+##Team Members
 Abdelhalim Mohsen Fathallah
 sameh
 Asmaa Ebrahem leila 
 mohamed 
 mohamed
 
-📄 References
+References
 Insider threat detection literature
-
 Machine learning for anomaly detection
-
 PCAP analysis techniques
 
-⚠️ Notes
+##Notes
 Ensure Wireshark/Tshark is installed for PCAP processing.
 The system is designed for educational purposes and graduation project demonstration.
 Update config.yaml with proper network paths and settings before running scripts.
