@@ -26,7 +26,7 @@ Our system uses **machine learning and statistical analysis** to monitor network
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 network-anomaly-detection/
 │
@@ -57,12 +57,12 @@ network-anomaly-detection/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-repo/network-anomaly-detection.git
-   ```
+```
+git clone https://github.com/your-repo/network-anomaly-detection.git
+```
 Install dependencies:
 ```
 pip install -r requirements.txt
@@ -88,7 +88,7 @@ Connect to dashboard (optional):
 python src/dashboard_connector.py
 ```
 
-###Technologies Used
+### Technologies Used
 Python 3.10+
 PyShark (PCAP analysis)
 Pandas & NumPy (data processing)
@@ -98,19 +98,21 @@ Matplotlib & Seaborn (visualization)
 ELK Stack / Kibana (optional dashboard visualization)
 
 
-##Team Members
+## Team Members
+```
 Abdelhalim Mohsen Fathallah
 sameh
 Asmaa Ebrahem leila 
 mohamed 
 mohamed
+```
 
-References
+### References
 Insider threat detection literature
 Machine learning for anomaly detection
 PCAP analysis techniques
 
-##Notes
+### Notes
 Ensure Wireshark/Tshark is installed for PCAP processing.
 The system is designed for educational purposes and graduation project demonstration.
 Update config.yaml with proper network paths and settings before running scripts.
