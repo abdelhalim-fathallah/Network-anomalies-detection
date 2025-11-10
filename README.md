@@ -100,9 +100,9 @@ ELK Stack / Kibana (optional dashboard visualization)
 
 ## Team Members
 ```
-Abdelhalim Mohsen Fathallah
+Abdelhalim
 sameh
-Asmaa Ebrahem leila 
+Asmaa 
 mohamed 
 mohamed
 ```
