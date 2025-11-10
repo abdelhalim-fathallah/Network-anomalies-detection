@@ -61,7 +61,7 @@ network-anomaly-detection/
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-repo/network-anomaly-detection.git
+git clone https://github.com/abdelhalim-fathallah/network-anomaly-detection.git
 ```
 Install dependencies:
 ```
