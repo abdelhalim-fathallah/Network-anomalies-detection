@@ -22,7 +22,7 @@ Our system uses **machine learning and statistical analysis** to monitor network
   - **Isolation Forest**: Identifies outliers in network behavior.  
 - Detect anomalies in processed network data.  
 - Send notifications and alerts for suspicious activities.  
-- Integrate results with **ELK Stack / Kibana** dashboards for visualization.  
+- Integrate results with **React.JS** dashboards for visualization.  
 
 ---
 
